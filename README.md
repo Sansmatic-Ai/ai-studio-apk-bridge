@@ -5,6 +5,15 @@ save the built APK straight to your phone. **No PC. No cable.**
 
 > Created by **Tamal Mitra**. Licensed under the [MIT License](LICENSE).
 
+## Download
+
+**Easiest:** get the ready-to-install zip.
+
+- [**Download ai-studio-apk-bridge-extension-v1.0.0.zip**](ai-studio-apk-bridge-extension-v1.0.0.zip) (in this repo, tap it, then the download button)
+- Or open the [**Releases**](../../releases/latest) page and download the zip under **Assets**.
+
+Then follow [Install](#install-short-version) below.
+
 ## How it works
 
 1. On AI Studio pages the extension replaces `navigator.usb` with a *virtual Android
@@ -26,8 +35,7 @@ It also has safety nets that catch APK blobs/fetches that look like an APK.
 
 ## Install (short version)
 
-1. Download the latest `ai-studio-apk-bridge-extension.zip` from the
-   [Releases](../../releases) page, or use the `extension/` folder from this repo.
+1. Download the zip (see **Download** above).
 2. Unzip it to a folder on your phone.
 3. In your browser open `chrome://extensions`, turn on **Developer mode**,
    tap **Load unpacked**, and pick the folder that contains `manifest.json`.
@@ -49,9 +57,9 @@ No data collection, no network requests of its own. See [PRIVACY.md](PRIVACY.md)
 ## Project layout
 
 ```
-extension/   the extension itself (load this folder)
+ai-studio-apk-bridge-extension-v1.0.0.zip   ready-to-install download
+extension/   the extension source (load this folder)
 docs/        browser list + install guide, GitHub publishing guide
-release/     ready-to-upload extension zip
 ```
 
 ## Disclaimer

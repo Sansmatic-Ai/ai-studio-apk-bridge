@@ -36,8 +36,8 @@ test and open an issue to report results.
 
 ## Step 0: Get the extension onto your phone
 
-1. Download `ai-studio-apk-bridge-extension.zip` (from the GitHub **Releases** page
-   or from the `release/` folder).
+1. Download `ai-studio-apk-bridge-extension-v1.0.0.zip` (from the GitHub **Releases** page
+   or from the repo home page).
 2. **Unzip it.** Most Android browsers need a *folder*, not a zip.
    - Use the **Files** app (long-press the zip -> Extract) or **ZArchiver**.
    - Put the folder somewhere permanent (e.g. `Download/ai-studio-apk-bridge/`).
@@ -76,7 +76,7 @@ test and open an issue to report results.
 2. Open the menu -> **Extensions** (or `chrome://extensions`).
 3. Turn on **Developer mode**.
 4. Tap **+ (from .zip/.crx/.user.js)** and choose
-   `ai-studio-apk-bridge-extension.zip` **or** use **Load** with the folder.
+   `ai-studio-apk-bridge-extension-v1.0.0.zip` **or** use **Load** with the folder.
 5. Open AI Studio. If the button appears late, that is the old-engine fallback.
 
 ## Lemur / Relixor / Mises / Yandex

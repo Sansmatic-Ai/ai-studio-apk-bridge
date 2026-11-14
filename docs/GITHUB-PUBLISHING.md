@@ -58,7 +58,7 @@ addresses private") so your real email isn't published in commits.
 Website: repo -> **Releases** -> **Draft a new release**
 - Tag: `v1.0.0` (create new tag), Title: `v1.0.0`
 - Description: copy the `1.0.0` section from `CHANGELOG.md`
-- Attach `release/ai-studio-apk-bridge-extension.zip`
+- Attach `ai-studio-apk-bridge-extension-v1.0.0.zip`
 - **Publish release**
 
 Termux:
@@ -66,9 +66,20 @@ Termux:
 ```bash
 git tag -a v1.0.0 -m "v1.0.0"
 git push origin v1.0.0
-gh release create v1.0.0 release/ai-studio-apk-bridge-extension.zip \
+gh release create v1.0.0 ai-studio-apk-bridge-extension-v1.0.0.zip \
   --title "v1.0.0" --notes-file CHANGELOG.md
 ```
+
+## Keep the zip easy to find
+
+- The versioned zip sits in the repo root, so it shows on the home page.
+- Also attach it to every Release (Assets), which is where most people look.
+- For each new version: update `version` in `extension/manifest.json`, rebuild the
+  zip with the new name (`ai-studio-apk-bridge-extension-vX.Y.Z.zip`), delete the old
+  root zip, update the links in `README.md`, add a `CHANGELOG.md` entry, then tag
+  and release. Old zips stay available under their old Releases.
+- Rebuild command (Termux or Linux):
+  `cd extension && zip -r ../ai-studio-apk-bridge-extension-vX.Y.Z.zip . -x '.*'`
 
 ## Polish the repo page
 

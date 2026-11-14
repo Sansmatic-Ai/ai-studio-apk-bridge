@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+title: "AI Studio APK Bridge"
+type: software
+version: 1.0.0
+date-released: 2026-11-14
+license: MIT
+authors:
+  - family-names: "Mitra"
+    given-names: "Tamal"
+repository-code: "https://github.com/YOUR-GITHUB-USERNAME/ai-studio-apk-bridge"
+abstract: "A Chromium browser extension that lets Google AI Studio's 'Install via USB' save the built APK straight to an Android device, with no PC or cable."
+keywords:
+  - chromium-extension
+  - android
+  - apk
+  - google-ai-studio
+  - webusb
+  - adb
